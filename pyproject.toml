@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "net-health-tui"
+version = "0.1.0"
+description = "Dracula Terminal UI for Network Health, Packet Loss, Speedtest and Interface Diagnostics"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "LucaPezzato", email = "luca@pezzato.dev" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.80.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+net-health-tui = "net_health_tui.cli:main"

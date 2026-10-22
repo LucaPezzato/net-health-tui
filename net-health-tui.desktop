@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Net Health TUI
+Comment=Terminal UI for Network Health, Packet Loss & Speedtest
+Exec=kitty --class net-health-tui -T "Net Health TUI" net-health-tui
+Icon=network-wired
+Terminal=false
+Type=Application
+Categories=Network;Monitor;System;ConsoleOnly;
+Keywords=network;ping;speedtest;packet-loss;wifi;ip;dracula;
+StartupWMClass=net-health-tui
