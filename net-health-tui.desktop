@@ -1,10 +1,11 @@
 [Desktop Entry]
+Type=Application
 Name=Net Health TUI
-Comment=Terminal UI for Network Health, Packet Loss & Speedtest
-Exec=kitty --class net-health-tui -T "Net Health TUI" net-health-tui
+GenericName=Network Diagnostics & Speedtest
+Comment=Terminal UI for Network Health, Packet Loss, Speedtest and Interface Diagnostics
+Exec=kitty --class net-health-tui --title nethealth -e /home/pez/.local/bin/net-health-tui
 Icon=network-wired
 Terminal=false
-Type=Application
 Categories=Network;Monitor;System;ConsoleOnly;
-Keywords=network;ping;speedtest;packet-loss;wifi;ip;dracula;
+Keywords=network;ping;speedtest;packet-loss;wifi;ip;dracula;nethealth;
 StartupWMClass=net-health-tui
